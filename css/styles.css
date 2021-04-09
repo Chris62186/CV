@@ -1,0 +1,162 @@
+body {
+  font-family: 'Hind Madurai', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 25 auto;
+
+}
+
+h3 {
+  color: #D44602;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+
+hr {
+  clear: both;
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D44602;
+}
+
+
+/*****************CLASS SELECTORS*********************/
+.top-container {
+  background-color: #EAF6F6;
+  height: 100%;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 25px;
+}
+
+.sub-title-top {
+  font-weight: normal;
+}
+
+.highlight-underline-word
+{
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 8%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+.chat-img {
+  border-radius: 50px;
+  float: left;
+  margin: 0 30px 0 0;
+  width: 25%;
+}
+
+.village-img {
+  border-radius: 50px;
+  float: right;
+  margin: 0 0 0 30px;
+  width: 25%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skills-description-text {
+  font-size: 1.10rem;
+}
+
+.BUTTON_RGN {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   font-family: 'Hind Madurai', sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+   padding: 12px 24px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   color: white;
+   margin: 15px auto;
+}
+
+.BUTTON_RGN:hover {
+   background: #D44602;
+   border: solid #D44602 0;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   text-decoration: none;
+   color: black;
+}
+
+.footer-link {
+  padding: 0 10px;
+  color: #11999E;
+  font-weight: bold;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  font-size: .75rem;
+}
+
+.icons-attribution {
+  font-size: 1rem;
+  margin: 0;
+  display: inline-block;
+}
